@@ -1,0 +1,52 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Art Next Door</title>
+    <link rel="stylesheet" type="text/css" href='{% static "common/css/style.css"%}'>
+    <link rel="stylesheet" type="text/css" href='{% static "common/css/bootstrap.min.css"%}'>
+    <meta name="description" content="Платформа команды художников, где можно заказать арты, комиксы, стилизованные рисунки, заготовки для принтов, стикеров и прочего в цифровом формате.">
+    <meta name="keywords" content="Ключевики">
+    <meta name="author" content="Экплкьёй Дей">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+  </head>
+
+  <body>
+    <!--<h1 class="ff_center">Art Next Door</h1>
+    <p>Платформа команды художников, где можно заказать арты, комиксы,<br>стилизованные рисунки, заготовки для принтов, стикеров и прочего<br>в цифровом формате.Воплощение любого полета мысли в растровой<br>и векторной графике. Постоянно обновляющийся блог с работами<br>художников для вдохновения. Полный хаос фантазий и творчества!</p>
+    <p><img src='img/photo.jpg'></p>-->
+
+    <script src='{% static "common/js/bootstrap.min.js"%}'></script>
+    <script src='{% static "common/js/jquery-3.5.1.min.js"%}'></script>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="ff_center">Art Next Door</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col xs-12">
+          <p>Платформа команды художников, где можно заказать арты, комиксы,<br>стилизованные рисунки, заготовки для принтов, стикеров и прочего<br>в цифровом формате.Воплощение любого полета мысли в растровой<br>и векторной графике. Постоянно обновляющийся блог с работами<br>художников для вдохновения. Полный хаос фантазий и творчества!</p>
+          <!-- Левый блок -->
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col xs-12">
+          <svg width="224" height="174" viewBox="0 0 224 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M146.618 169.594C251.494 135.371 242.663 28.0111 146.618 4V86.7968V169.594Z" stroke="#A276FF" stroke-width="3"/>
+            <path d="M11.3835 28.0111L137.511 169.594C137.511 104.925 137.511 68.6683 137.511 4" stroke="#A276FF" stroke-width="3"/>
+            <path d="M2 169.594V89.2807M127.222 145.031L76.7931 88.4224M76.7931 88.4224L2 4V89.2807M76.7931 88.4224L2 89.2807" stroke="#A276FF" stroke-width="3"/>
+          </svg>
+          <!-- Правый блок -->
+        </div>
+      </div>
+      <div class="footer" style="text-align: justify;">
+        <p>Скорая помощь для тех, кто не умеет рисовать сам - мы воплотим вашу идею!<br>Нет идей? Мы даем бесплатный доступ к источнику бесконечного вдохновения!</p>
+      </div>
+    </div>
+
+  </body>
+</html>
