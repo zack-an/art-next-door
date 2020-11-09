@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Art Next Door</title>
     <link rel="stylesheet" type="text/css" href='{% static "common/css/bootstrap.min.css" %}'>
-    <link rel="stylesheet" type="text/css" href='{% static "common/css/style.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "common/css/styleFUCK.css" %}'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
     <meta name="description" content="Платформа команды художников, где можно заказать арты, комиксы, стилизованные рисунки, заготовки для принтов, стикеров и прочего в цифровом формате.">
     <meta name="keywords" content="Ключевики">
@@ -20,7 +20,7 @@
     <!--<img src='img/photo.jpg'>-->
 
     <div class="widget">
-      <svg class="logo" width="188" height="147" viewBox="0 0 188 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="logo" id="art" width="188" height="147" viewBox="0 0 188 147" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M123.038 142.594C210.814 113.951 203.423 24.0961 123.038 4V73.2968V142.594Z" stroke="#A276FF" stroke-width="3"/>
         <path d="M9.85352 24.0961L115.416 142.594C115.416 88.4695 115.416 58.1242 115.416 4" stroke="#A276FF" stroke-width="3"/>
         <path d="M2 142.594V75.3757M106.804 122.036L64.5981 74.6574M64.5981 74.6574L2 4V75.3757M64.5981 74.6574L2 75.3757" stroke="#A276FF" stroke-width="3"/>
@@ -43,7 +43,8 @@
       <p class="welc">Welcome to our platform, where you can buy digital arts, comics,
         <br>stylized drawings, templates for prints, stickers and other cool
         <br>things. We are the order in chaos of fantasy and creativity!</p>
-      <a href="" id="make-order">MAKE AN ORDER</a>
+      <!--<a onmouseover="changeColor" onmouseout="changeBack" href="" id="make-order">MAKE AN ORDER</a>-->
+      <a href="#art" id="make-order">MAKE AN ORDER</a>
     </div>
 
     <!--<div class="container">
@@ -74,6 +75,7 @@
 
     <script src='{% static "common/js/jquery-3.5.1.min.js" %}'></script>
     <script src='{% static "common/js/bootstrap.min.js" %}'></script>
+    <!--<script src='{% static "common/js/animation.js" %}'></script>-->
 
   </body>
 </html>

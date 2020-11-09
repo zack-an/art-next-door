@@ -33,7 +33,9 @@
   transition: .1s linear;
   font-weight: 400;
 }
-.widget-list a:hover {color: #A276FF;}
+.widget-list a:hover {
+  color: #A276FF;
+}
 .header{
 	padding-left: 450px;
 	padding-top: 200px;
@@ -42,7 +44,7 @@
 	text-align: left;
 	font-size: 100px;
 	color: #A276FF;
-	font-weight: 700;
+  font-weight: 700;
 }
 .comm{
 	font-size: 50px;
@@ -54,20 +56,23 @@
 	font-weight: 400;
 }
 #make-order {
-  color:#A276FF;
+  margin-top: 30px;
+  outline: none;
+  align-self: left;
+  color: #fff;
   padding: 10px 20px;
-  width: 100px;
-  text-decoration: none;
+  width: 200px;
+  text-decoration: none!important;
   text-align: center;
-  margin: 20px auto;
   display: block;
-  transition: .1s linear;
+  transition: color .1s linear;
   border: 1px solid #A276FF;
   border-radius: 10px;
   font-size: 20px;
   font-weight: 700;
+  background-color: #A276FF;
  }
-#make-order :hover {
-   color:#fff;
-   background-color: #A276FF;
-}
+ #make-order :hover {
+  background-color: #a176ff00;
+  color: #A276FF;
+ }
