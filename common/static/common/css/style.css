@@ -53,3 +53,21 @@
 	font-size: 20px;
 	font-weight: 400;
 }
+#make-order {
+  color:#A276FF;
+  padding: 10px 20px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  transition: .1s linear;
+  border: 1px solid #A276FF;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+#make-order :hover {
+   color:#fff;
+   background-color: #A276FF;
+}
