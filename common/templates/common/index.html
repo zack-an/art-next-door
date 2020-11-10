@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Art Next Door</title>
     <link rel="stylesheet" type="text/css" href='{% static "common/css/bootstrap.min.css" %}'>
-    <link rel="stylesheet" type="text/css" href='{% static "common/css/styleFUCK.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "common/css/style.css" %}'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
     <meta name="description" content="Платформа команды художников, где можно заказать арты, комиксы, стилизованные рисунки, заготовки для принтов, стикеров и прочего в цифровом формате.">
     <meta name="keywords" content="Ключевики">
@@ -20,31 +20,65 @@
     <!--<img src='img/photo.jpg'>-->
 
     <div class="widget">
-      <svg class="logo" id="art" width="188" height="147" viewBox="0 0 188 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <a href="#home" id="logotype"><svg class="logo" id="art" width="188" height="147" viewBox="0 0 188 147" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M123.038 142.594C210.814 113.951 203.423 24.0961 123.038 4V73.2968V142.594Z" stroke="#A276FF" stroke-width="3"/>
         <path d="M9.85352 24.0961L115.416 142.594C115.416 88.4695 115.416 58.1242 115.416 4" stroke="#A276FF" stroke-width="3"/>
         <path d="M2 142.594V75.3757M106.804 122.036L64.5981 74.6574M64.5981 74.6574L2 4V75.3757M64.5981 74.6574L2 75.3757" stroke="#A276FF" stroke-width="3"/>
-        </svg>               
+        </svg></a>              
       <ul class="widget-list" style="list-style: none">
-        <li><a href="">HOME</a></li>
+        <li><a href="#home">HOME</a></li>
         <li><a href="">ABOUT US</a></li>
         <li><a href="">GALLERY</a></li>
         <li><a href="">ADVANTAGES</a></li>
         <li><a href="">OUR TEAM</a></li>
         <li><a href="">REVIEWS</a></li>
-        <li><a href="">MAKE AN ORDER</a></li>
+        <li><a href="#make-an-order">MAKE AN ORDER</a></li>
         <li><a href="">CONTACTS</a></li>
       </ul>
     </div>
     
-    <div class="header">
+    <div class="header" id="home">
       <span class="comm"><b>COMMUNITY OF ARTISTS</b></span><br>
       <span class="and"><b>ART NEXT DOOR</b></span>
       <p class="welc">Welcome to our platform, where you can buy digital arts, comics,
         <br>stylized drawings, templates for prints, stickers and other cool
         <br>things. We are the order in chaos of fantasy and creativity!</p>
       <!--<a onmouseover="changeColor" onmouseout="changeBack" href="" id="make-order">MAKE AN ORDER</a>-->
-      <a href="#art" id="make-order">MAKE AN ORDER</a>
+      <a href="#make-an-order" id="make-order">MAKE AN ORDER</a>
+    </div>
+
+    <div class="titles" id="make-an-order">
+      <h1>MAKE AN ORDER</h1>
+      <svg class="tri" width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3.06581 1.5L15.5 21.1907L27.9342 1.5H3.06581Z" stroke="#A276FF" stroke-width="3"/>
+      </svg>          
+    </div>
+
+    <div class="form">
+      <h2>FILL THE FORM</h2>
+      <div class="fill-form">
+        <input name="name" type="text" placeholder="Name">
+      </div>
+      <div class="fill-form">
+        <input name="email" type="email" placeholder="E-mail">
+      </div>
+      <div class="fill-form">
+        <input name="phone" type="tel" placeholder="Phone">
+      </div>
+      <div class="fill-form">
+        <input name="idea" type="text" placeholder="Your idea" id="idea">
+      </div>
+      <p>Your assotiation</p>
+      <div class="buttons">
+        <a href="" id="file">CHOOSE FILE</a>
+        <a href="" id="add">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="17" y1="-4.5036e-08" x2="17" y2="34" stroke="#111111" stroke-width="2"/>
+            <line y1="17" x2="34" y2="17" stroke="#111111" stroke-width="2"/>
+          </svg>                                   
+        </a>
+        <a href="" id="make-order">MAKE AN ORDER</a>
+      </div>
     </div>
 
     <!--<div class="container">
