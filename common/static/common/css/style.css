@@ -81,19 +81,6 @@
   background-color: #a176ff00;
   color: #A276FF;
 }
-.form {
-  margin-left: 500px;
-  width: 600px;
-  color: #111111;
-  background-color: #ffffffd0;
-  border: 1px solid #ffffffd0;
-  border-radius: 20px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 100px;
-}
 .titles {
   margin-left: 500px;
   display: inline-flex;
@@ -108,6 +95,31 @@
 h1 {
   font-size: 30px;
   font-weight: 700;
+}
+.about {
+  margin-left: 500px;
+  width: 800px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#about-jpg {
+  width: 700px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+.form {
+  margin-left: 500px;
+  width: 600px;
+  color: #111111;
+  background-color: #ffffffd0;
+  border: 1px solid #ffffffd0;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
 }
 h2 {
   font-size: 30px;
