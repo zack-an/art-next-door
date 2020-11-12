@@ -108,6 +108,14 @@ h1 {
   border: 3px solid #fff;
   border-radius: 10px;
 }
+.advant {
+  margin-left: 500px;
+  width: 800px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+}
 .form {
   margin-left: 500px;
   width: 600px;
@@ -166,7 +174,7 @@ h2 {
 }
 #add {
   margin-left: 5px;
-  margin-right: 174px;
+  margin-right: 170px;
   outline: none;
   align-self: left;
   transition: .1s linear;
