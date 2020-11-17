@@ -110,11 +110,24 @@ h1 {
 }
 .advant {
   margin-left: 500px;
-  width: 800px;
+  width: 1000px;
   margin-bottom: 100px;
   font-size: 20px;
   font-weight: 400;
-  display: inline-block;
+  display: inline-flex;
+}
+.adv {
+  margin-right: 70px;
+  width: 200px;
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.adv-svg {
+  width: 200px;
+  margin-bottom: 30px;
 }
 .form {
   margin-left: 500px;
@@ -174,7 +187,7 @@ h2 {
 }
 #add {
   margin-left: 5px;
-  margin-right: 170px;
+  margin-right: 160px;
   outline: none;
   align-self: left;
   transition: .1s linear;

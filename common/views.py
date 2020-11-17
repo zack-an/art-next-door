@@ -9,10 +9,11 @@ class IndexView(View):
         return render(request, 'common/index.html')
 
 def fill_form(request):
-    Form.create(
+    a = Form(
         name = request.POST['name'],
         email = request.POST['email'],
         phone = request.POST['phone'],
         idea = request.POST['idea']
         )
+    a.save()
     return HttpResponse(reverse('common:IndexView'))
