@@ -108,7 +108,16 @@ h1 {
   border: 3px solid #fff;
   border-radius: 10px;
 }
-.advant {
+.gall {
+  margin-left: 500px;
+  width: 750px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+.circles {
   margin-left: 500px;
   width: 1000px;
   margin-bottom: 100px;
@@ -129,12 +138,18 @@ h1 {
   width: 200px;
   margin-bottom: 30px;
 }
-.gall {
-  margin-left: 500px;
-  width: 1000px;
-  margin-bottom: 100px;
-  font-size: 20px;
+.pal {
+  margin-right: 50px;
+  width: 150px;
+  display: block;
   font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.pal-img {
+  width: 150px;
+  margin-bottom: 30px;
 }
 .form {
   margin-left: 500px;
