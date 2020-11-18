@@ -16,4 +16,4 @@ def fill_form(request):
         idea = request.POST['idea']
         )
     a.save()
-    return HttpResponse(reverse('common:IndexView'))
+    return render(request, 'common/index.html')
