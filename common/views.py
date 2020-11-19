@@ -13,7 +13,8 @@ def fill_form(request):
         name = request.POST['name'],
         email = request.POST['email'],
         phone = request.POST['phone'],
-        idea = request.POST['idea']
+        idea = request.POST['idea'],
+        #file = request.FILES['file'],
         )
     a.save()
     return render(request, 'common/index.html')

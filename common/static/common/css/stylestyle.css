@@ -4,7 +4,7 @@
   background: #0b0b0d81;
   position: fixed;
   height: 100%;
-  width: fit-content;
+  width: 260px;
 }
 #logotype {
   transition: .1s linear;
@@ -38,6 +38,10 @@
 }
 .widget-list a:hover {
   color: #A276FF;
+}
+.contacts {
+  width: 70px;
+  padding-left: 20px;
 }
 .header{
 	padding-left: 500px;
@@ -162,7 +166,7 @@ h1 {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 h2 {
   font-size: 30px;
@@ -185,14 +189,14 @@ h2 {
 .form p {
   font-size: 20px;
   font-weight: 400;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 .buttons {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 0px;
   
 }
-#file {
+#add-butt {
   outline: none;
   align-self: left;
   color: #111111;
@@ -206,14 +210,8 @@ h2 {
   font-size: 16px;
   font-weight: 700;
   background-color: #a176ff00;
-}
-#add {
-  margin-left: 5px;
-  margin-right: 160px;
-  outline: none;
-  align-self: left;
-  transition: .1s linear;
-  text-decoration: none;
+  margin-right: 170px;
+  cursor: pointer;
 }
 input {
   background-color: #a176ff00;
