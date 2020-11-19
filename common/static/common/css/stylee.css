@@ -39,9 +39,17 @@
 .widget-list a:hover {
   color: #A276FF;
 }
+#cont {
+  display: inline-block;
+  padding-top: 35px;
+  padding-left: 15px;
+}
 .contacts {
-  width: 70px;
-  padding-left: 20px;
+  width: 60px;
+}
+.cont-link {
+  text-decoration: none!important;
+  margin-right: 30px;
 }
 .header{
 	padding-left: 500px;
